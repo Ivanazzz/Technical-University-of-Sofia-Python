@@ -4,34 +4,34 @@
 # # За списъка, съставен от нечетни числа, да се намери минималната и максималната стойност на елементите, съставящи 
 # # списъка. За списъка, съставен от четни числа, да се намери сумата и средно аритметичната стойност за елементите от списъка.
 
-# numbers_count = int(input())
-# odd_numbers_list = []
-# even_numbers_list = []
+ numbers_count = int(input())
+ odd_numbers_list = []
+ even_numbers_list = []
 
-# for i in range(numbers_count):
-#     number = int(input())
+ for i in range(numbers_count):
+     number = int(input())
 
-#     if (number % 2 != 0) and (number % 3 == 0):
-#         odd_numbers_list.append(number)
-#     elif number % 2 == 0:
-#         even_numbers_list.append(number)
+     if (number % 2 != 0) and (number % 3 == 0):
+         odd_numbers_list.append(number)
+     elif number % 2 == 0:
+         even_numbers_list.append(number)
 
-# min_value = min(odd_numbers_list)
-# max_value = max(odd_numbers_list)
+ min_value = min(odd_numbers_list)
+ max_value = max(odd_numbers_list)
 
-# even_numbers_total_sum = 0
-# count = 0
+ even_numbers_total_sum = 0
+ count = 0
 
-# for num in even_numbers_list:
-#     even_numbers_total_sum += num
-#     count += 1
+ for num in even_numbers_list:
+     even_numbers_total_sum += num
+     count += 1
 
-# average_value = even_numbers_total_sum / count
+ average_value = even_numbers_total_sum / count
 
-# print(min_value)
-# print(max_value)
-# print(even_numbers_total_sum)
-# print(average_value)
+ print(min_value)
+ print(max_value)
+ print(even_numbers_total_sum)
+ print(average_value)
 
 
 
